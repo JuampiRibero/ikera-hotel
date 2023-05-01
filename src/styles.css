@@ -1,0 +1,36 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* html,
+body,
+#root {
+     height: 100vh;
+     scroll-behavior: smooth;
+} */
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Rufina", "serif";
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

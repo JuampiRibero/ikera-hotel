@@ -1,0 +1,433 @@
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%
+    ),
+    url("../../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1,
+header.masthead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+hr.divider-masthead {
+  height: 0.4rem !important;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #d1ab66;
+  opacity: 1;
+}
+
+.make-customer-area {
+  position: relative;
+}
+
+.customar-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customar-padding {
+    padding-top: 160px;
+    padding-bottom: 93px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .customar-padding {
+    padding-top: 160px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customar-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 160px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customar-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.customer-img {
+  position: relative;
+}
+
+.customar-img1 {
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-img .customar-img1 {
+    max-width: 541px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-img .customar-img1 {
+    max-width: 466px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-img .customar-img1 {
+    max-width: 65%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .customer-img .customar-img1 {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-img .customar-img1 {
+    max-width: 90%;
+  }
+}
+
+.customer-img .customar-img2 {
+  max-width: 340px;
+  position: absolute;
+  top: -60px;
+  right: 25px;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-img .customar-img2 {
+    right: -67px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-img .customar-img2 {
+    right: 196px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-img .customar-img2 {
+    right: -62px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-img .customar-img2 {
+    display: none;
+  }
+}
+
+.customer-img::before {
+  background-image: url(../../assets/img/about-our-hotel-bg.png);
+  position: absolute;
+  content: "";
+  top: -59px;
+  right: 25px;
+  max-width: 645px;
+  z-index: -2;
+  height: 479px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-img::before {
+    right: -67px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-img::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-img::before {
+    right: -61px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-img::before {
+    right: 198px;
+    display: none;
+  }
+}
+
+.customer-caption {
+  padding-left: 96px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-caption {
+    padding-left: 96px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-caption {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .customer-caption {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-caption {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-caption {
+    padding-left: 0px;
+  }
+}
+
+.customer-caption span {
+  color: #dca73a;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 13px;
+}
+
+.customer-caption h2 {
+  color: #112e41;
+  font-size: 37px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 32px;
+  font-family: "Noto Serif", serif;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-caption h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-caption h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-caption h2 {
+    font-size: 25px;
+  }
+}
+
+.customer-caption .caption-details .pera-dtails {
+  color: #112e41 !important;
+  font-size: 20px;
+  padding-right: 69px;
+  margin-bottom: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-caption .caption-details .pera-dtails {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-caption .caption-details .pera-dtails {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .customer-caption .caption-details .pera-dtails {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-caption .caption-details .pera-dtails {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-caption .caption-details .pera-dtails {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-caption .caption-details .pera-dtails {
+    font-size: 18px;
+  }
+}
+
+.customer-caption .caption-details p {
+  color: #888888;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 52px;
+  padding-right: 26px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .customer-caption .caption-details p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) and (min-width: 1200px) and (max-width: 1400px) {
+  .customer-caption .caption-details p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .customer-caption .caption-details p {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-caption .caption-details p {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .customer-caption .caption-details p {
+    padding-right: 0px;
+  }
+}
+
+.more-btn1 i {
+  position: relative;
+  left: 0;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
+  .intro .intro-img2 {
+    width: 75%;
+    float: left;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .intro .intro-text2 {
+    right: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+  .intro .intro-text2 .intro-button {
+    width: 100%;
+    right: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+  .intro .intro-text2 {
+    width: 45%;
+  }
+}
+
+.bg-faded {
+  background-color: rgba(252, 252, 252, 0.95);;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
