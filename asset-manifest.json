@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JuampiRibero/ikera-hotel.git/static/css/main.f7657d51.css",
+    "main.js": "/JuampiRibero/ikera-hotel.git/static/js/main.cc32600b.js",
+    "static/media/restaurant-2.jpg": "/JuampiRibero/ikera-hotel.git/static/media/restaurant-2.fc33732c61f9cb129ad2.jpg",
+    "static/media/bg-masthead.jpg": "/JuampiRibero/ikera-hotel.git/static/media/bg-masthead.48e5ece49a2c27bd2736.jpg",
+    "static/media/about-our-hotel.jpg": "/JuampiRibero/ikera-hotel.git/static/media/about-our-hotel.afaa6983f4cab5d4a241.jpg",
+    "static/media/room-3.jpg": "/JuampiRibero/ikera-hotel.git/static/media/room-3.021322477eaa97f0c99b.jpg",
+    "static/media/about-our-hotel-bg.png": "/JuampiRibero/ikera-hotel.git/static/media/about-our-hotel-bg.36ebc7590710e875fc32.png",
+    "static/media/room-1.jpg": "/JuampiRibero/ikera-hotel.git/static/media/room-1.818ba72ca919f383fd12.jpg",
+    "static/media/restaurant-1.jpg": "/JuampiRibero/ikera-hotel.git/static/media/restaurant-1.ae11982a09ee51b43268.jpg",
+    "static/media/room-2.jpg": "/JuampiRibero/ikera-hotel.git/static/media/room-2.1a6ce744fa83b788668a.jpg",
+    "static/media/room-4.jpg": "/JuampiRibero/ikera-hotel.git/static/media/room-4.e86608de6c2c79249a75.jpg",
+    "static/media/logo-ikera-hotel.png": "/JuampiRibero/ikera-hotel.git/static/media/logo-ikera-hotel.749c22eca91b27d5cd21.png",
+    "static/media/logo-ikera-hotel-footer.png": "/JuampiRibero/ikera-hotel.git/static/media/logo-ikera-hotel-footer.29578a06fd3eba86c616.png",
+    "static/media/logo-ikera-menu.png": "/JuampiRibero/ikera-hotel.git/static/media/logo-ikera-menu.8fc8b74f94cacfa907cd.png",
+    "index.html": "/JuampiRibero/ikera-hotel.git/index.html",
+    "main.f7657d51.css.map": "/JuampiRibero/ikera-hotel.git/static/css/main.f7657d51.css.map",
+    "main.cc32600b.js.map": "/JuampiRibero/ikera-hotel.git/static/js/main.cc32600b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7657d51.css",
+    "static/js/main.cc32600b.js"
+  ]
+}
